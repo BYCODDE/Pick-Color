@@ -15,6 +15,7 @@ function App() {
       <SketchPicker
         color={showPicker}
         onChange={(color) => setShowPicker(color.hex)}
+        className="mt-[100px]"
       />
       <input
         value={showPicker}
